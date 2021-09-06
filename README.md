@@ -7,8 +7,18 @@
 * 3D file (.stl)
 ### Built With
 Python = [ PIL, matplotlib, numpy, numpy-stl]
+### Prerequisites
+In order to run this program, several Python packages must be installed first using pip
+```
+pip install Pillow
+pip install matplotlib
+pip install numpy
+pip install numpy-stl
+```
 ### How to use
 ```
 git clone https://github.com/ithar14/2Dimage3D.git
+
+python 2Dimage3D.py
 ```
-and replace python.jpg with your image
++ replace python.jpg with your image
